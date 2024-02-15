@@ -1,0 +1,32 @@
+.scope {
+  height: 100%;
+  color: #213547;
+
+  :global {
+    .logo {
+      height: 8em;
+      transition: filter 300ms;
+    }
+
+    .vite:hover {
+      filter: drop-shadow(0 0 2em #646cffaa);
+    }
+
+    .react {
+      @media (prefers-reduced-motion: no-preference) {
+        & {
+          animation: spin infinite 20s linear;
+        }
+      }
+
+      &:hover {
+        filter: drop-shadow(0 0 2em #61dafbaa);
+      }
+    }
+
+    .title {
+      font-size: 3.2em;
+      line-height: 1.1;
+    }
+  }
+}

@@ -1,0 +1,57 @@
+:root {
+  font-family: sans-serif;
+  text-rendering: optimizelegibility;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.center {
+  align-items: center;
+  justify-content: center;
+}
+
+.grow {
+  flex: 1;
+}
+
+.padded {
+  padding: 1.5em;
+}
+
+.gap {
+  gap: 1.5em;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
