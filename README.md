@@ -70,9 +70,15 @@ git hooks._
   dist/
   public/
   src/
-    index.html
-    main.js
+    Landing/
+      Landing.jsx
+      Landing.module.css
+    App.jsx
+    App.module.css
+    main.jsx
+    router.jsx
     styles.css
+  index.html
 ```
 
 ### `./`
